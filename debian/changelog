@@ -1,5 +1,63 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-mgutz-ansi (0.0~git20200706.d51e80e-1) unstable; urgency=medium
 
-  * Initial release
+  [ Aloïs Micard ]
+  * Update my uploader email.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Anthony Fok ]
+  * Set debian/watch to track git HEAD.
+    Upstream has not made any tagged release yet
+  * New upstream version 0.0~git20200706.d51e80e
+  * Change Section from devel to golang
+  * Bump debhelper dependency to "Build-Depends: debhelper-compat (= 13)"
+  * Bump Standards-Version to 4.6.0 (no change)
+  * Mark library package with "Multi-Arch: foreign"
+  * Add myself to the list of Uploaders
+  * debian/gbp.conf: Set debian-branch to debian/sid for DEP-14 conformance
+
+ -- Anthony Fok <foka@debian.org>  Tue, 07 Sep 2021 07:05:26 -0600
+
+golang-github-mgutz-ansi (0.0~git20170206.9520e82-5) unstable; urgency=medium
+
+  * Fix maintainer email.
+  * Add myself as Uploaders (Closes: #940387).
+  * Add Rules-Requires-Root: no.
+
+ -- Aloïs Micard <alois@micard.lu>  Sat, 13 Mar 2021 08:26:41 +0100
+
+golang-github-mgutz-ansi (0.0~git20170206.9520e82-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+  * Set upstream metadata fields: Bug-Submit.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 06 Feb 2021 02:30:08 +0000
+
+golang-github-mgutz-ansi (0.0~git20170206.9520e82-3) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:35:10 -0500
+
+golang-github-mgutz-ansi (0.0~git20170206.9520e82-2) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:18:14 -0500
+
+golang-github-mgutz-ansi (0.0~git20170206.9520e82-1) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Priority extra -> optional.
+  * New upstream snapshot.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 02:32:02 -0500
+
+golang-github-mgutz-ansi (0.0~git20170206.0.9520e82-1) unstable; urgency=medium
+
+  * Initial release (Closes: #868642)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 17 Jul 2017 00:27:06 -0400
